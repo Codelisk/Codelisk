@@ -2,11 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
-    <PackageReference Include="Prism.Forms" Version="8.0.0.1909" />
+    <PackageReference Include="AsyncAwaitBestPractices" Version="5.1.0" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.36-pre" />
+    <PackageReference Include="Prism.Magician" Version="8.0.156-beta" />
+    <PackageReference Include="ReactiveUI" Version="13.2.2" />
+    <PackageReference Include="Shiny.Core" Version="2.0.0.2542-preview" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Converter\" />
+    <Folder Include="Views\" />
   </ItemGroup>
 
 </Project>

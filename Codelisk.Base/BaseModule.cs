@@ -1,7 +1,7 @@
-﻿using Codelisk.Base.ViewModels;
-using Codelisk.Base.Views;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Prism.Modularity;
+using Xamarin.Essentials.Implementation;
+using Xamarin.Essentials.Interfaces;
 
 namespace Codelisk.Base
 {
@@ -14,7 +14,10 @@ namespace Codelisk.Base
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<ViewA, ViewAViewModel>();
+            containerRegistry.RegisterSingleton<IDeviceDisplay, DeviceDisplayImplementation>();
+            containerRegistry.RegisterSingleton<IDeviceInfo, DeviceInfoImplementation>();
+            containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
+            containerRegistry.RegisterSingleton<IFileSystem, FileSystemImplementation>();
         }
     }
 }
