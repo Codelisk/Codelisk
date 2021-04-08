@@ -1,0 +1,3 @@
+[submodule "Shiny.Framework"]
+	path = Shiny.Framework
+	url = https://github.com/aritchie/Shiny.Framework.git

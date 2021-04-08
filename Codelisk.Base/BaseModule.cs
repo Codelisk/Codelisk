@@ -5,7 +5,7 @@ using Xamarin.Essentials.Interfaces;
 
 namespace Codelisk.Base
 {
-    public class BaseModule : IModule
+    public partial class BaseModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
