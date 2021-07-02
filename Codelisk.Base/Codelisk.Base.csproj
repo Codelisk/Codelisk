@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="AsyncAwaitBestPractices" Version="5.1.0" />
-    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.36-pre" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
     <PackageReference Include="Prism.Magician" Version="8.0.156-beta" />
     <PackageReference Include="ReactiveUI" Version="13.3.2" />
     <PackageReference Include="Shiny.Core" Version="2.1.0.2757" />
