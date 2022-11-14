@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AsyncAwaitBestPractices" Version="5.1.0" />
+    <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.6" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
     <PackageReference Include="Prism.Magician" Version="8.0.156-beta" />
     <PackageReference Include="ReactiveUI" Version="14.3.1" />
